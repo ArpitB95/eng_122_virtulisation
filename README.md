@@ -1,3 +1,27 @@
+### Virtualisation Dependencies:
+
+- In order to setup a virtual machin in local system, we need to install following in our system
+
+ 1) Ruby
+- https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.6-1/rubyinstaller-devkit-2.6.6-1-x64.exe  (For windows)
+
+2) Vagrant
+- https://www.vagrantup.com/downloads  (For windows)
+
+3) Virtual Box
+- https://www.virtualbox.org/wiki/Downloads 
+
+- Check ruby vesrion
+
+<img width="326" alt="Ruby version" src="https://user-images.githubusercontent.com/110182832/184233129-7533fffe-aa33-4d85-90b5-f862d7e06e79.png">
+
+
+- Check vagrant version
+
+<img width="205" alt="vagrant version" src="https://user-images.githubusercontent.com/110182832/184233171-854a2a14-bf67-4ec0-acd1-3318dc0f2673.png">
+
+
+
 ## What is Dev env & benefits
 - A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers.
 
@@ -19,6 +43,20 @@
 - Virtualization relies on software to simulate hardware functionality and create a virtual computer system
 - This enables IT organizations to run more than one virtual system – and multiple operating systems and applications – on a single server. The resulting benefits include economies of scale and greater efficiency.
   
+### Creating a vagrant file / creating a virtual setup
+
+<img width="481" alt="virtualisation-mkdir step" src="https://user-images.githubusercontent.com/110182832/184233736-2c58d16c-27bd-4182-bf06-acfd07ba5795.png">
+
+
+
+### How to start VM ?
+- Open terminal in VS code
+- Run following commands
+- vagrant up
+- vagrant status
+- vagrant ssh 
+- Now you'll enter into the VM, you'll see 'vagrant@ubuntu -xenial:~$'
+
 
 
 
