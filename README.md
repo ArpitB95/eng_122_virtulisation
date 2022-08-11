@@ -86,6 +86,14 @@
   -  sudo nano provision.sh
   -  Now, write a script inside the file then ctrl+x to save and then Y and press enter to exit the file
   -  To check the content of file run 'cat filename' here it's 'cat provision.sh'
+  
+  
+  - <img width="315" alt="script to automate upgrade and update" src="https://user-images.githubusercontent.com/110182832/184183414-9f4b654c-9323-468d-8529-c59674aea7e6.png">
+
+
+
+  
+  
   -  Now run 'll' command to check the file permission
   -  It doesn't have executable permission  (the file name will appear in white color)
   -  run 'sudo chmod +x filename' to change the file permission (Here it would be 'sudo chmod +x provision.sh')
