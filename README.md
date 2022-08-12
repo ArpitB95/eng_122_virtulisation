@@ -23,6 +23,7 @@
 
 
 ## What is Dev env & benefits
+- A DevOps environment is the virtual environment where developers run their code and dependencies for their testing.
 - A development environment is the collection of processes and tools that are used to develop the source code for a program or software product. This involves the entire environment that supports the process end to end, including development, staging and production servers.
 
 ### Benefits of DevOps
@@ -109,6 +110,11 @@
 
 - How to create automate tasks with provisioning scripts
 - Automate update and upgrade 
+
+- How to kill/terminate process in linux?
+- First find the process id to kill that process by running 'ps -fu user'
+- The process id will be displayed in the first column of the output
+- Then run 'kill [signal-number pid]
 
 
 ### Task:
