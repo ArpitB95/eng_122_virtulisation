@@ -144,3 +144,13 @@
   -  After running the command you'll see file name in green color which means it's executable
   -  To run the file run command './filename' (Here './provision.sh' if there's permission issue then use 'sudo ./  permission.sh)
   -  Enter 'exit' to come out of VM and back to the localhost
+
+
+
+### Installation of NGINX
+Install nginx 'sudo apt-get install nginx -y'
+- How to check if it's installed/working 'sudo systemctl status nginx'
+
+- How to restart a process  -in this case it's an nginx
+- Restart or start 'sudo systemctl restart nginx'
+- enable the process 'sudo systemctl enable nginx'
