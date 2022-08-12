@@ -1,5 +1,12 @@
 ### Virtualisation Dependencies:
 
+
+<img width="584" alt="Virtu dia" src="https://user-images.githubusercontent.com/110182832/184343661-7efde8f0-4fed-4936-aed7-d6e0856afc79.png">
+
+
+
+
+
 - In order to setup a virtual machin in local system, we need to install following in our system
 
  1) Ruby
