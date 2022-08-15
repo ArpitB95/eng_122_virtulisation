@@ -204,12 +204,16 @@ Install nginx 'sudo apt-get install nginx -y'
 - Install dependencies in VM using new git bash terminal
 - In This task, we need to install 
 - 'sudo systemctl start nginx'
-- 'sudo apt-get install nodejs -y'
+
 
 - Here the requirement is to install npm version 6 or higher 
 - So run following commands
 - 'curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -'
+
+- 'sudo apt-get install nodejs -y'
+-
 - 'sudo npm install pm2 -g'
+
 - Now, update and upgrade
 - 'sudo apt-get update -y'
 - 'sudo apt-get upgrade -y'
