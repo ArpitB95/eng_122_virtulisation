@@ -227,3 +227,15 @@ Install nginx 'sudo apt-get install nginx -y'
 > node app.js
 
 Your app is ready and listening on port 3000
+
+
+
+## What is monolithic architecture ?
+Monolithic applications consist of a single codebase that interacts with a single database. The application’s client interface, single database, frontend, backend and business logic are incorporated into one codebase. There is only one test and deployment pipeline to maintain.
+
+
+
+![mono-1](https://user-images.githubusercontent.com/110182832/184659467-ee9558c3-e351-40f0-8bf8-1decc48ac09f.png)
+
+
+In a microservices system, applications are broken down into separate, small, independent services. Each service is a tiny application with business logic and a variety of adapters. Rather than sharing a database with the other services, each service communicates with its database, tailored to its requirements.
