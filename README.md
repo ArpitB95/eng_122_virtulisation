@@ -195,3 +195,35 @@ Install nginx 'sudo apt-get install nginx -y'
 
 <img width="298" alt="s-4" src="https://user-images.githubusercontent.com/110182832/184636560-8393857e-9eb7-464a-9060-48c796c4a787.png">
 
+
+
+
+ Go into eng_122_virtualisation/environment/spec-tests (on vs code)
+- In that location run 'rake spec'
+- If some tests fails then refactor the code or install dependencies that led to fail the tests
+- Install dependencies in VM using new git bash terminal
+- In This task, we need to install 
+- 'sudo systemctl start nginx'
+- 'sudo apt-get install nodejs -y'
+
+- Here the requirement is to install npm version 6 or higher 
+- So run following commands
+- 'curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -'
+- 'sudo npm install pm2 -g'
+- Now, update and upgrade
+- 'sudo apt-get update -y'
+- 'sudo apt-get upgrade -y'
+
+
+- Now if you run 'rake spec' inside spec-test folder in VS code and pass all the tests
+- then in gitbash terminal go to the vagrant@ubuntu-xenial:~/app/app$ (app/app folder), where the 
+- app.js file is located
+- Then inside that app folder 
+- run 'npm install'
+- 'npm start'
+- You'll see following output
+  
+- solution-code@1.0.0 start /home/vagrant/app/app
+> node app.js
+
+Your app is ready and listening on port 3000
