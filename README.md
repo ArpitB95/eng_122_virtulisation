@@ -154,10 +154,44 @@
 
 
 
-### Installation of NGINX
+## Installation of NGINX
 Install nginx 'sudo apt-get install nginx -y'
 - How to check if it's installed/working 'sudo systemctl status nginx'
 
 - How to restart a process  -in this case it's an nginx
 - Restart or start 'sudo systemctl restart nginx'
 - enable the process 'sudo systemctl enable nginx'
+
+
+#### Steps to deploy an application
+- Unzip app folder in the exact same location, where vagrant file is
+- In the terminal from the vagrant file location run 'ls' command to see if you've unzipped folders
+- Now, change directory and enter environment folder by running command 'cd environment/'
+- Now go to spec-tests directory by 'cd spec-tests'
+
+
+- In the spec-tests location run 'gem install bundler'
+- Then run 'gem install bundle' command
+
+<img width="479" alt="s-1" src="https://user-images.githubusercontent.com/110182832/184636323-5ed7f2e2-026c-401d-8caa-34fa40b07e7f.png">
+
+
+- Now run 'bundle'
+
+<img width="449" alt="s-2" src="https://user-images.githubusercontent.com/110182832/184636345-44b6443c-9fa8-4a6b-92df-ca82780862f6.png">
+
+
+
+- Now copy and paste the code in vagrant file.
+-' config.vm.synced_folder ".", "/home/vagrant/app" ' - This will copy everything and paste it into the app folder in VM
+- Save the changes in that file
+- Now come back to vagrant file location (eng_122_virtuaisation) and run 'vagrant reload'
+
+<img width="476" alt="s-3" src="https://user-images.githubusercontent.com/110182832/184636395-d6660297-e8c6-4b53-8732-e454d8ec2ac6.png">
+
+
+- Now open gitbash terminal and enter the VM by 'vagrant shh'
+- Now run 'ls' command, you'll see that folders has been copied from local host to the VM.
+
+<img width="298" alt="s-4" src="https://user-images.githubusercontent.com/110182832/184636560-8393857e-9eb7-464a-9060-48c796c4a787.png">
+
